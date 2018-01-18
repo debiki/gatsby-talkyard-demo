@@ -18,6 +18,13 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+
+          {
+            resolve: `@debiki/gatsby-plugin-talkyard`,
+            options: {
+              //commentsServerUrl: 'https://www.example.com'
+            }
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
