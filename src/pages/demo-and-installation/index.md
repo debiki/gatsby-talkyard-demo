@@ -6,7 +6,7 @@ discussion_id: demo-and-inst-instrs
 
 Talkyard is a new embedded commenting system for Gatsby and other static site generators.
 It's [open source](https://github.com/debiki/ed-server/) so you can install it for free on your own server.
-There's hosting, if you don't want to maintain your own server.
+There's [hosting](https://www.talkyard.io), if you don't want to maintain your own server.
 No ads, no tracking.
 Lightweight, just 140 kb javascript (compare with Disqus, about 750 kb).
 
@@ -70,7 +70,10 @@ Now, restart Gatsby and look at the comment section that should appear below the
 
 Are you satisfied with how it looks? If not, please tell us/me: <https://www.talkyard.io/forum/latest/support>.
 
-If you like it, then go to <https://www.talkyard.io>, click Create Community and choose Blog Comments. Follow the instructions — and, in gatsby-config.js, change the `commentsServerUrl` value to the address of your new Talkyard blog comments site (e.g. `https://comments-for-your-blog.talkyard.io`).
+If you like it, then go to <https://www.talkyard.io>, click Create Community and choose Blog Comments.
+Follow the instructions — and, in gatsby-config.js, change the `commentsServerUrl` value
+to the address of your new Talkyard blog comments site,
+e.g. `https://comments-for-your-blog.talkyard.io`.
 
 You should also add a frontmatter `discussionId: per-discussion-id` to your blog posts / articles,
 so you can change the URL to a blog post, without the discussion disappearing; [read more here][disc_id_docs].
