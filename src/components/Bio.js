@@ -10,30 +10,26 @@ import { rhythm } from '../utils/typography'
 class Bio extends React.Component {
   render() {
     return (
-      <div
+      <p
         style={{
-          display: 'flex',
-          marginBottom: rhythm(2.5),
+          marginBottom: rhythm(5 / 4),
         }}
       >
-        <img
+       <img
           src={profilePic}
-          alt={`Kyle Mathews`}
+          alt={`Magnus Lindberg`}
           style={{
-            marginRight: rhythm(1 / 2),
+            float: 'left',
+            marginRight: rhythm(1 / 4),
             marginBottom: 0,
             width: rhythm(2),
             height: rhythm(2),
           }}
         />
-        <p>
-          Written by <strong>Kyle Mathews</strong> who lives and works in San
-          Francisco building useful things.{' '}
-          <a href="https://twitter.com/kylemathews">
-            You should follow him on Twitter
-          </a>
-        </p>
-      </div>
+        Written by me, <strong>Magnus Lindberg</strong>. I live in Stockholm / Europe / nearby.
+        Email: kajmagnus3 at gmail dot com, Twitter:{' '}
+        <a href="https://twitter.com/kajmagnus3">@kajmagnus3</a>.
+      </p>
     )
   }
 }

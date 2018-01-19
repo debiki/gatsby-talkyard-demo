@@ -1,11 +1,7 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
+  "name": "gatsby-talkyard-demo",
+  "description": "Talkyard: A commenting system for Gatsby",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
-  },
   "dependencies": {
     "@debiki/gatsby-plugin-talkyard": "^0.5.1",
     "gatsby": "^1.9.158",
@@ -35,16 +31,6 @@
     "eslint-plugin-react": "^7.5.1",
     "gh-pages": "^1.1.0",
     "prettier": "^1.10.2"
-  },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
     "dev": "gatsby develop",

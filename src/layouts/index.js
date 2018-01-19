@@ -4,6 +4,8 @@ import { Container } from 'react-responsive-grid'
 
 import { rhythm, scale } from '../utils/typography'
 
+const title = "Talkyard: A commenting system for Gatsby";
+
 class Template extends React.Component {
   render() {
     const { location, children } = this.props
@@ -31,7 +33,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            { title }
           </Link>
         </h1>
       )
@@ -52,7 +54,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            { title }
           </Link>
         </h3>
       )

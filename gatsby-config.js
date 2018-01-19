@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'Talkyard: A commenting system for Gatsby',
+    author: 'Magnus Lindberg',
+    description: 'A new embedded commenting system for Gatsby blogs and websites.',
+    siteUrl: 'https://gatsby.demo.talkyard.io',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
