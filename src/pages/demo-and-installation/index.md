@@ -11,6 +11,8 @@ No ads, no tracking.
 Lightweight, just 140 kb javascript (compare with Disqus, about 750 kb).
 
 This website is a static Gatsby blog, with Talkyard comments below each blog post — look at the bottom of the pages.
+Talkyard is forum software too, with chat and Q&A features —
+so you can create a community for your website, integrated with the blog comments.
 
 Demo video:
 
@@ -51,7 +53,7 @@ Here're three quick steps for you to try out Talkyard:
      {
        resolve: `@debiki/gatsby-plugin-talkyard`,
        options: {
-         commentsServerUrl: 'https://comments.demo.talkyard.io'
+         commentsServerUrl: 'https://comments-demo.talkyard.io'
        }
      },
      ...
@@ -78,6 +80,7 @@ e.g. `https://comments-for-your-blog.talkyard.io`.
 You should also add a frontmatter `discussionId: per-discussion-id` to your blog posts / articles,
 so you can change the URL to a blog post, without the discussion disappearing; [read more here][disc_id_docs].
 
+Again, note that Talkyard also is forum software, with chat and Q&A features — so you can create a community for your website, integrated with the blog comments.
 
 You can ask for help in [the support forum][support-cat], and [suggest ideas][ideas-cat].
 Or post a comment below on this page (test comments are fine too).

@@ -1,6 +1,7 @@
 ---
 title: What do you like about Gatsby?
 date: "2018-01-19T02:00:00.000Z"
+discussion_id: like-about-gatsby
 ---
 
 Why did you choose Gatsby instead of some of the other static site generators?
