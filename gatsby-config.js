@@ -22,7 +22,7 @@ module.exports = {
           {
             resolve: `@debiki/gatsby-plugin-talkyard`,
             options: {
-              commentsServerUrl: 'https://comments-for-gatsby-demo.talkyard.io'
+              talkyardServerUrl: 'https://comments-for-gatsby-demo.talkyard.io'
             }
           },
           {

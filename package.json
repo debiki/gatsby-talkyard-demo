@@ -3,7 +3,7 @@
   "description": "Talkyard: A commenting system for Gatsby",
   "version": "1.0.0",
   "dependencies": {
-    "@debiki/gatsby-plugin-talkyard": "^0.5.1",
+    "@debiki/gatsby-plugin-talkyard": "^0.5.5",
     "gatsby": "^1.9.158",
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-feed": "^1.3.15",

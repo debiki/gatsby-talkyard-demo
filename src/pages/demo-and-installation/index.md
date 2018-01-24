@@ -53,7 +53,7 @@ Here're three quick steps for you to try out Talkyard:
      {
        resolve: `@debiki/gatsby-plugin-talkyard`,
        options: {
-         commentsServerUrl: 'https://comments-demo.talkyard.io'
+         talkyardServerUrl: 'https://comments-demo.talkyard.io'
        }
      },
      ...
@@ -72,10 +72,12 @@ Now, restart Gatsby and look at the comment section that should appear below the
 
 Are you satisfied with how it looks? If not, please tell us/me: <https://www.talkyard.io/forum/latest/support>.
 
+### Real installation
+
 If you like it, then go to <https://www.talkyard.io>, click Create Community and choose Blog Comments.
-Follow the instructions — and, in gatsby-config.js, change the `commentsServerUrl` value
+Follow the instructions — and, in gatsby-config.js, change the `talkyardServerUrl` value
 to the address of your new Talkyard blog comments site,
-e.g. `https://comments-for-your-blog.talkyard.io`.
+e.g. `https://comments-for-your-blog.talkyard.net`.
 
 You should also add a frontmatter `discussionId: per-discussion-id` to your blog posts / articles,
 so you can change the URL to a blog post, without the discussion disappearing; [read more here][disc_id_docs].
