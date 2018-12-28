@@ -61,7 +61,7 @@ class BlogPostTemplate extends React.Component {
           )}
         </ul>
 
-        <TalkyardCommentsIframe />
+        <TalkyardCommentsIframe discussionId={post.frontmatter.discussionId} />
       </div>
     )
   }
@@ -83,6 +83,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        discussionId
       }
     }
   }
